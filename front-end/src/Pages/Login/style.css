@@ -1,0 +1,75 @@
+body {
+  background-color: #2e2d35;
+}
+
+.main {
+  height: 520px;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 430px;
+}
+
+.button-container {
+  margin-top: 40px;
+}
+
+.title {
+  color: #eaf0fb;
+  display: block;
+  font-family: 'Goudy Bookletter 1911' , sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 40px;
+  padding: 10px;
+  text-align-last: center;
+}
+
+.error {
+  color: #943232;
+  display: block;
+  font-family: 'Goudy Bookletter 1911' , sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 40px;
+  padding: 10px;
+  text-align-last: center;
+}
+
+input {
+  background-color: rgba(255, 255, 255, 0.07);
+  border-radius: 15px;
+  color: #eaf0fb;
+  display: block;
+  font-size: 17px;
+  height: 50px;
+  margin-top: 8px;
+  padding: 0 10px;
+  text-align-last: center;
+  width: 95%;
+}
+
+::placeholder {
+  color: #858585;
+  font-size: 15px;
+  font-style: italic;
+}
+
+button {
+  background-color: white;
+  border-radius: 15px;
+  color: #080710;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 10px;
+  padding: 15px 10px 10px;
+  width: 100%;
+}
+
+button:disabled {
+  background-color: #ccc;
+  border: 1px solid #999;
+  color: #666;
+}
